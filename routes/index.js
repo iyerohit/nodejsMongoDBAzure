@@ -19,6 +19,11 @@ router.get('/', function(req, res, next) {
     });
 });
 
+router.get("/hello", (req,res)=>{
+
+  console.log("hello world in a  complex app :)")
+
+});
 
 router.post('/addTask', function(req, res, next) {
   const taskName = req.body.taskName;
