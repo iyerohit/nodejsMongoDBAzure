@@ -21,7 +21,8 @@ router.get('/', function(req, res, next) {
 
 router.get("/hello", (req,res)=>{
 
-  console.log("hello world in a  complex app :)")
+  console.log("hello world in a  complex app :)");
+  res.render('home');
 
 });
 
